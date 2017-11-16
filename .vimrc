@@ -8,7 +8,7 @@ autocmd Syntax python setlocal foldmethod=indent
 
 "Color Schemes
 if has("win32")
-    colorscheme industry
+    colorscheme zellner
 else
     colorscheme xterm16
 endif
