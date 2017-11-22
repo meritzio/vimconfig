@@ -13,6 +13,9 @@ else
     colorscheme xterm16
 endif
 
+"Show rows/columns
+set ruler
+
 "Show/Hide numbers
 set nonumber 
 
