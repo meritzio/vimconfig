@@ -7,11 +7,7 @@ autocmd Syntax c,cpp,php setlocal foldmethod=syntax
 autocmd Syntax python setlocal foldmethod=indent
 
 "Color Schemes
-if has("win32")
-    colorscheme zellner
-else
-    colorscheme xterm16
-endif
+colorscheme zellner
 
 "Show rows/columns
 set ruler
