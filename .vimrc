@@ -2,6 +2,9 @@
 "Syntax Highlighting
 syntax enable
 
+"Search Highlighting
+set hlsearch
+
 "Autofolding
 autocmd Syntax c,cpp,php setlocal foldmethod=syntax
 autocmd Syntax python setlocal foldmethod=indent
