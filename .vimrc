@@ -12,6 +12,9 @@ autocmd Syntax python setlocal foldmethod=indent
 "Color Schemes
 colorscheme zellner
 
+"Avoid multiple screen redraws on large macros
+set lazyredraw
+
 "Show rows/columns
 set ruler
 
@@ -27,8 +30,11 @@ set smarttab
 set tabstop=4
 set shiftwidth=4
 
-set ai "Auto Indent
-set si "Smart Indent
+"Auto Indent
+set ai
+
+"Smart Indent
+set si
 
 "Shell preference
 if has("win32")
