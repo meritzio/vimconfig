@@ -38,6 +38,7 @@ set si
 
 "Shell preference
 if has("win32")
+    colorscheme darkblue
     set shell=powershell
     set shellcmdflag=-command
 endif
